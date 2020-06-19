@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- google font for roboto and poppins-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4ea96ace4f.js" crossorigin="anonymous"></script>
+
+    <!-- my own css file -->
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+
+    <div class="container-fluid p-0">
+
+        <!-- slide images -->
+        <div class="slide-show">
+
+            <div class="slide-show-wrapper" id="demo">
+                
+                <div class="header-content-wrapper">
+                    <p class="slide-para">NEED TO</p>
+                    <h1 class="slide-header"> <span>REA</span>CH US</h1>
+                </div>
+                
+                <div class="nextCon">
+                    <button class="previous" onclick="myNext(this)"><</button> 
+                    <button class="next" onclick="myNext(this)">></button>
+                </div>
+
+                <div class="image-overlay"></div>
+            </div>
+
+        </div>          
+        <!-- END of slide images -->
+
+        <!-- contact us section -->
+        <div class="container-fluid section-contact-us p-0">
+            <!-- contact us header -->
+            <h2 class="text-center header-text mt-3">CONTACT US</h2>
+
+            <!-- <div class="container-fluid contact-us p-0"> -->
+
+                <div class="row no-gutters justify-content-between contact-us px-5 pt-4">
+                    <!-- address section -->
+                    <div class="col-md-6 contact-detail">
+                        <p class="address d-flex my-3"><span class="address-icon"><i class="fas fa-map-marker-alt pr-2"></i></span>
+                            <span>600 Isolation Expressway, Lagos Island, London</span>
+                        </p>
+                        <p class="address d-flex my-3"><span class="address-icon"><i class="fas fa-phone-alt pr-2"></i></span>
+                            <span>+234 9032330872, +234 81218767633 (ext. 61619)</span>
+                        </p>
+                        <p class="address d-flex my-3"><span class="address-icon"><i class="fas fa-envelope pr-2"></i></span>
+                            <span>contact@fiercehr.com</span>
+                        </p>
+                    </div>
+                    <!-- form input section -->
+                    <div class="col-md-6 d-sm-block contact-detail contact-form-hide">
+                        <form action="">
+                            <input type="text" placeholder="Name" class="container-fluid mb-4 p-1 my-input">
+                            <input type="text" placeholder="Email" class="container-fluid mb-4 p-1 my-input">
+                            <textarea name="" id="" cols="30" rows="5" class="container-fluid mb-4 p-1 my-input">Write message here</textarea>
+                            <button class="btn btn-danger d-flex mx-auto send-message">Send message</button>
+                        </form>
+                    </div>
+
+                </div>
+            <!-- </div> -->
+
+            <!-- social media links us section -->
+            <div class="social-container d-flex">
+                <a href="" class="d-inline-block social-link"><i class="fab fa-twitter social-icon p-1"></i></a>
+                <a href="" class="d-inline-block social-link"><i class="fab fa-youtube social-icon p-1"></i></a>
+                <a href="" class="d-inline-block social-link"><i class="fab fa-linkedin-in social-icon p-1"></i></a>
+                <a href="" class="d-inline-block social-link"><i class="fab fa-facebook-f social-icon p-1"></i></a>
+                <a href="" class="d-inline-block social-link"><i class="fab fa-instagram social-icon p-1"></i></a>
+            </div>
+            <!-- social media links us section -->
+
+        </div>
+        <!-- contact us section -->
+
+        <!-- map section -->
+        <div class="container-fluid map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2479.823750909812!2d-0.02479478453808281!3d51.57146447964571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1592512708125!5m2!1sen!2sng" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <!--END of map section -->
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="script/script.js"></script>
+
+</body>
+</html>
