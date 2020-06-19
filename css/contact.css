@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Style for the slide-show section =================================================================================================== */
+
+.slide-show-wrapper{
+    width: 100%;
+    height: 50vh;
+    max-height: auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../images/contact-slide.png);
+    background-size: 100% 100%;
+    animation-name: slideOutLeft;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.header-content-wrapper{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.slide-para{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6vw;
+    color: #FFFFFF;
+    text-shadow: 0px 4.28235px 4.28235px rgba(0, 0, 0, 0.5);
+    margin-bottom: -0.5em;
+}
+.slide-header{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 9vw;
+    color: #fff;
+}
+.slide-header span{
+    color: #AF010B;
+}
+
+.image-overlay{
+    position: absolute;
+    width: 50%;
+    height: inherit;
+    top: 0;
+    right: 0;
+    background-color: #AF010B;
+    opacity: 0.8;
+    z-index: 1;
+    background-image: url(../images/dots.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: bottom 0 right -10px;
+}
+#imgCon{
+    width: 100%;
+    height: 100%;
+    animation-name: slideOutLeft;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes slideOutLeft {
+    0% {
+        opacity: 0.5;
+      }
+    5% {
+        opacity: 0.5;
+    }
+    10% {
+        opacity: 0.9;
+    }
+
+    15% {
+        opacity: 1;
+    }
+    
+    85% {
+        opacity: 1;
+      }
+
+    100% {
+    opacity: 0.5;
+    }
+}
+.nextCon{
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 2.5%;
+    transform: translate(0, -50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+.previous, .next{
+    color: white;
+    font-weight: 700;
+    background-color: #C4C4C4;
+    border: none;
+    padding: 5px 8px;
+}
+/* END of Style for the slide-show section =================================================================================================== */
+
+/* contact us section */
+
+.section-contact-us{
+    position: relative;
+}
+.contact-us{
+    background-color: #FFF4F4;
+    background-image: url(../images/dots.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: bottom -10px left -10px;
+}
+.header-text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.contact-form-hide{
+    display: none;
+}
+
+.address{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1em;
+}
+.my-input, .my-input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+    border: 1px solid #2B2024
+}
+textarea{
+    resize: none;
+}
+
+.social-container{
+    /* position: relative; */
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px;
+}
+.social-link, .social-link:hover{
+    color: initial;
+    margin: 0 4vw;
+}
+/*END of contact us section */
+
+@media (min-width:576px){
+    .slide-show-wrapper{
+        height: 70vh;
+    }
+    .header-text{
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .contact-us{
+        background-color: #FBF9FA;
+    }
+    .social-container{
+        position: absolute;
+        right: 1vw;
+        bottom: -80px;
+        padding: 0;
+        background-color: transparent;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .social-link, .social-link:hover{
+        margin: 4px 0;
+    }
+    .map{
+        padding: 50px;
+    }
+}
