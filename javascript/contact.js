@@ -1,10 +1,10 @@
 
 var myImg = document.getElementById("demo");
 var mySlide = [
-    "../images/contact-slide.png",
-    "../images/contact-slide.png",
-    "../images/contact-slide.png",
-    "../images/contact-slide.png",
+    "../assets/contact-images/contact-slide.png",
+    "../assets/contact-images/contact-slide.png",
+    "../assets/contact-images/contact-slide.png",
+    "../assets/contact-images/contact-slide.png",
 ];
 
 var mylength = mySlide.length;
