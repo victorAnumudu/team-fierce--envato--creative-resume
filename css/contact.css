@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 /* Style for the slide-show section =================================================================================================== */
 
 .slide-show-wrapper{
@@ -133,30 +134,33 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
-.address{
+.address, .send-message{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
-    line-height: 1em;
+    font-size: 1.8em;
 }
 .my-input, .my-input::placeholder{
     font-family: 'Roboto', sans-serif;
-    font-size: .9em;
+    font-size: 1.2em;
     border: 1px solid #2B2024
 }
 textarea{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
     resize: none;
 }
 
 .social-container{
     position: absolute;
-    right: 1vw;
+    right: 5px;
     bottom: -80px;
     padding: 0;
     background-color: transparent;
     justify-content: space-between;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
 }
 
 .social-link, .social-link:hover{
@@ -178,8 +182,7 @@ textarea{
     }
     .address{
         margin: 20px 0 !important;
-        font-size: .9em;
-        /* line-height: 1em; */
+        font-size: 1.5rem;
     }
     .contact-us{
         background-color: #FFF4F4;
