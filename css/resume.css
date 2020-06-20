@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+.landing-Img{
+    background: url(../assets/landing.png);
+    height: 100vh;
+    position: relative;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-bar{
+    background: #af010b;
+    opacity: .8;
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
+    top: 0px;
+    height: 100%;
+}
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    background: rgb(245, 245, 245);
+    border: 1px solid #af010b;
+}    
+.nav a{
+    color: #af010b;
+}
+.navbar-brand{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+.landing-Img p{
+    font-size: 24px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 30%;
+    top: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    position: absolute;
+    left: 27%;
+    top: 33%;
+    border-left: 9px solid #af010b;
+    padding-left: 5px;
+
+}
+.textnav{
+    position: absolute;
+    top: 60px;
+    font-size: 2vw;
+    color: white;
+    left: 30%;
+}
+.container h3{
+    font-size: 6vw;
+    color: white;
+    text-shadow: 0px 4.28235px 4.28235px rgba(0, 0, 0, 0.5);;
+}
+.container h1{
+    font-size: 10vw;
+    color: #af010b;
+}
+.container h1 span{
+    color: white;
+}
+.arrow a{
+    background: #000000;
+    color: white;
+}
+.arrow a{
+    position: absolute;
+    bottom: 0px;
+    left: 47%;
+    width: 90px;
+    height: 71px;
+    text-align: center;
+    font-size: 50px;
+}
+.arrow a img{
+    height: 30px;
+}
+/*Page 2*/
+.nav.nav-tab{
+    position: absolute;
+}
+.nav a{
+    color: #000000;
+}
+a.nav-link.page{
+    border-right: 1px solid #AF010B;
+    font-size: 12px;
+    height: 24px;
+}
+.nav.nav-tabs.nav-stacked{
+    top: 0px;
+    padding-left: 90px;
+    padding-bottom: 5px;
+}
+.container-fluid{
+margin-top: 1%;
+font-family: 'Poppins', sans-serif;
+}
+.about{
+    margin-top: 5%;
+    text-align: center;
+}
+.about h3{
+    color: #AF010B;
+}
+.about h3 span{
+    color: black;
+}
+.container-md{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+.container-fluid{
+    position: relative;
+}
+
+.col-sm-2 .plus{
+    text-align: right;
+    font-size: 50px;
+}
+.col-sm-2 .fig{
+ font-size: 144px;
+    color: #AF010B;
+    text-align: center;
+
+}
+.col-sm-2 .text{
+    text-align: center;
+}
+.col-sm-5{
+    margin: auto;
+    color: rgba(0, 0, 0, 0.5);
+}
+.col-sm-5 p{
+    padding-left: 50px;
+}
+.arrow1{
+    position: absolute;
+    background: #af010b;
+    width: 90px;
+    height: 71px;
+    left: 50%;
+top: 115%;
+    transform: translate(-50%, -50%);
+}
+.arrow1  img{
+    height: 30px;
+}
+.arrow1 a{
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    left: 30%;
+
+}
+/*Second page ends*/
+/*Page 3*/
+container-fluid-md{
+    position: relative;
+}
+.bg-img1{
+        background: url(../assets/home-office-1867761_1920\ 1.png);
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+    
+}
+.color{
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    width: 100%;
+    content: '';
+    height: 100%;
+
+}
