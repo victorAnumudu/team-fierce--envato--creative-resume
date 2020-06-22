@@ -17,7 +17,6 @@
     <!-- css file -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/nav-footer.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
 
 </head>
@@ -26,36 +25,39 @@
     <div class="container-fluid p-0">
 
         <!-- navigation section -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <div class="container">
-                <img src="assets/img/logo.svg"  alt="" class="img-fluid logo">
-                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark px-3 py-0">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="assets/img/logo.svg" alt=""></a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item active" id="find-creative">
-                        <a class="nav-link text-uppercase font-weight-bolder"  href="index.html">Find a Creative<span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link font-weight-bolder" id="nav-links" href="#"> About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link font-weight-bold" id="nav-links" href="#">Service</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link font-weight-bold" id="nav-links" href="#">Work</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link font-weight-bold" id="nav-links" href="#">Client</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link font-weight-bold" id="nav-links" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                  </div>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-1 mx-lg-4">
+                  <a class="nav-link" href="index.html">FIND A CREATIVE</a>
+                </li>
+                <li class="nav-item mx-1 mx-lg-4">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item mx-1 mx-lg-4">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item mx-1 mx-lg-4">
+                    <a class="nav-link" href="#">Works</a>
+                </li>
+                <li class="nav-item mx-1 mx-lg-4">
+                    <a class="nav-link" href="#">Clients</a>
+                </li>
+                <li class="nav-item ml-1 ml-lg-4">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
-        </nav>
+          </nav> 
         <!-- END of navigation section -->
 
         <!-- slide images -->
@@ -132,61 +134,45 @@
         <!--END of map section -->
 
         <!-- Start Footer -->
-        <div class="contact w-100">
-            <footer>
-                <div class="row mx-0 pt-xs-3 align-items-start row-footer">
-                    <div class=" col-5 col-md-5">
-                        <img src="assets/img/logo-footer.svg" class="img-fluid mb-5" alt="">
-                        <p class="footer-text d-none d-sm-none d-md-block mb-5">Design-driven companies worldwide use
-                        FierceHR to recruit exceptional talent.</p>
-                        <p class="footer-subtext d-none d-sm-none d-md-block font-weight-bold"> Connect with us for new jobs & projects</p>
-                        <div class="d-flex flex-column d-md-none">
-                                <a href="#" class="text-capitalize font-weight-light mb-4">About us</a>
-                                <a href="#" class="text-capitalize font-weight-light mb-4">FAQ</a>
-                                <a href="#" class="text-capitalize font-weight-light mb-4">Privacy policy</a>
-                                <a href="#" class="text-capitalize font-weight-light">Contact us</a>
-                        </div>
-                    </div>
-                    <div class="col-4 col-md-3 pt-0 pt-sm-0 pt-md-5 px-0 px-sm-0 px-md-5 m-auto d-none d-sm-none d-md-block">
-                        <h1 class="display-4 font-weight-bolder mb-3">FierceHR</h1>
-                        <div class="d-flex flex-column ">
-                            <a href="#" class="text-capitalize font-weight-light mb-4">About us</a>
-                            <a href="#" class="text-capitalize font-weight-light mb-4">FAQ</a>
-                            <a href="#" class="text-capitalize font-weight-light mb-4">Privacy policy</a>
-                            <a href="#" class="text-capitalize font-weight-light">Contact us</a>
-                        </div>
-                    </div>
-                    <div class="col-4 col-md-4 pt-0 pt-sm-0 pt-md-5 px-0 px-sm-0 px-md-5 m-xs-none m-sm-none m-md-auto">
-                            <h1 class="hiring-text font-weight-bolder mb-xs-5 mb-sm-5 mb-md-3 ">Hiring Tools</h1>
-                            <div class="d-flex flex-column">
-                                <a href="#" class="text-capitalize font-weight-light mb-4">Post a job</a>
-                                <a href= "#" class="text-capitalize font-weight-light mb-4">Find designers</a>
-                                <a href="#" class="text-capitalize font-weight-light mb-4">Job network</a>
-                                <a href="#" class="text-capitalize font-weight-light">Design salary guide</a>
-                            </div>
-                    </div>
-                    <div class="col-3 d-md-none">
-                            <img src="assets/icons/Group 7.png" alt="">
-                    </div>  
+        <footer class="p-5">
+            <div class="d-flex justify-content-between flex-wrap row-footer">
+
+                <div class="p-1 p-sm-2 col-md-4">
+                    <img src="assets/img/logo-footer.svg" class="img-fluid mb-4" alt="footer-logo">
+                    <p class="footer-text d-none d-sm-none d-md-block mb-2">Design-driven companies worldwide use FierceHR to recruit exceptional talent.</p>
+                    <p class="footer-subtext d-none d-sm-none d-md-block font-weight-bold"> Connect with us for new jobs & projects</p>
                 </div>
-                <div class="d-block d-md-none">
-                        <div class="row justify-content-center mt-5 mx-0">
-                                <div class="col-5">
-                                    <hr style="border:0.5px solid #2F2E2E;">
-                                </div>
-                            </div>
-                            <div class="row mx-0 justify-content-center">
-                                <div class="col-6">
-                                    <p class="copyright font-weight-bold text-right">Copyright <span>&copy;</span> by FierceHR</p>
-                                </div>
-                                <div class="col-6">
-                                        <p class="copyright font-weight-bold text-capitalize">All rights reserved</p>
-                                </div>
-                            </div>
+
+                <div class="p-1 p-sm-2">
+                    <h5 class="font-weight-bolder mb-2 d-none d-md-block">FierceHR</h5>
+                    <div class="container-fluid p-0">
+                        <a href="#" class="text-capitalize font-weight-light d-block footer-anchor">About us</a>
+                        <a href="#" class="text-capitalize font-weight-light d-block footer-anchor">FAQ</a>
+                        <a href="#" class="text-capitalize font-weight-light d-block footer-anchor">Privacy policy</a>
+                        <a href="#" class="text-capitalize font-weight-light d-block footer-anchor">Contact us</a>
+                    </div>
                 </div>
-                
+
+                <div class="p-1 p-sm-2">
+                    <h5 class="font-weight-bolder mb-2">Hiring Tools</h5>
+                    <div class="container-fluid p-0">
+                        <a href="#" class="text-capitalize font-weight-light d-block footer-anchor">Post a job</a>
+                        <a href= "#" class="text-capitalize font-weight-light d-block footer-anchor">Find designers</a>
+                        <a href="#" class="text-capitalize font-weight-light d-block footer-anchor">Job network</a>
+                        <a href="#" class="text-capitalize font-weight-light d-block footer-anchor">Design salary guide</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-block d-md-none">
+                <hr class="w-75">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <p class="px-2 py-0 copyright">Copyright &copy; by FierceHR</p>
+                    <p class="px-2 py-0 copyright">All Rights Reserved.</p>
+                </div>
+            </div>
+
             </footer>
-        </div>
 
         <!--End Footer Section -->
 

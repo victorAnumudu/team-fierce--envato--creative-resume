@@ -13,46 +13,13 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 100%;
 }
 
 body {
     background-color: #fff;
     overflow-x: hidden;
     position: relative;    
-}
-
-/* Navigation-styling*/
-.navbar {
-    position: absolute;
-    top: 2%;
-    background-image: linear-gradient(90deg, transparent 50%, #C4C4C4 50%);
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem;
-}
-.navbar-nav {
-    margin-left: 18rem;
-}
-.navbar-nav #find-creative {
-    margin-right: 8rem;
-}
-#nav-links {
-    margin-right: 4rem;
-}
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #AF010B;
-    
-}
-.navbar-light .navbar-nav .nav-link {
-    color: #AF010B;
-}
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #AF010B;
-    background-color: #C4C4C4;
-}
-
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /* Carousel */
@@ -103,32 +70,32 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .categories-heading {
-    padding: 11.6rem 0 8rem 0;
+    padding: .8em;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 2rem;
     color: rgba(0, 0, 0, 0.5);
 }
 
 .categories-list {
-    padding: 0 14rem;
+    padding: 0 1rem;
 }
 
 .card{
     border: 0;
-    margin-bottom: 7.8rem;
+    margin-bottom: 1rem;
 }
 
 .card-img {
-    width: 7.8rem;
+    width: 3rem;
 }
 
 .card-title {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 3.9rem;
+    font-size: 1.5rem;
     line-height: 58px;
     color: rgba(0, 0, 0, 0.5);   
 }
@@ -136,7 +103,7 @@ body {
     font-family: "Poppins", sans-serif  ;
     font-style: normal;
     font-weight: 200;
-    font-size: 1.9rem;
+    font-size: 1.3rem;
     color: #000000;
 }
 .circles {
@@ -151,55 +118,10 @@ body {
     left: 95%;
 }
 
-/* Footer styling */
-footer {
-    background-color: #DADADA;
-}
 
-.row-footer {
-    padding: 22rem 3rem 0 9rem;
-}
-
-.footer-text {
-    font-family: "Roboto", sans-serif;
-    font-style: regular;
-    font-size: 2.5rem;
-    text-align: left;
-}
-.footer-subtext {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.9rem;
-    color: #000000;
-}
-
-footer a {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    /* font-weight: 300; */
-    font-size: 2.5rem;
-    line-height: 2.9rem;
-    color: #000000;
-    text-decoration: none;
-}
-.hiring-text {
-    font-size: 3rem;
-}
-.copyright {
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    color: #AF010B;
-}
 
 /* Media quaries */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .navbar {
-        top: 0;
-        background-image: linear-gradient(90deg, transparent 50%, transparent 50%);
-        font-size: 1.5rem;
-    }
-    .navbar-nav {
-        margin-left: auto;
-    }
     .card {
         margin: 0;
         padding: 0 1.9rem;
@@ -213,9 +135,9 @@ footer a {
         padding: 0;
     }
     .categories-heading {
-        font-size: 2rem;
-        padding-bottom: 3rem;
-        padding-top: 3rem;
+        font-size: 1.4rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
     .bckg {
         background-color:#DADADA;
@@ -225,10 +147,10 @@ footer a {
         padding-top: 1rem;
     }
     .card-title {
-        font-size: 2.5rem
+        font-size: 1.2rem
     }
     .card-text {
-        font-size: 1.2rem
+        font-size: 1rem
     }
    
     .circles1 {
@@ -236,19 +158,5 @@ footer a {
     }
     .social-media {
         display:none;
-    }
-    .row-footer {
-        padding: 3rem 0 1.4rem 2rem;
-    }
-    footer a {
-        
-        font-size: 1.3rem;
-        /* line-height: 2.9rem; */
-        color: #000000;
-        text-decoration: none;
-    }
-    .hiring-text {
-        font-size: 2rem;
-        margin-bottom: 3rem;
     }
 }

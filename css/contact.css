@@ -7,7 +7,7 @@
 
 .slide-show-wrapper{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     max-height: auto;
     position: relative;
     overflow: hidden;
@@ -40,7 +40,7 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 9vw;
+    font-size: 8vw;
     color: #fff;
 }
 .slide-header span{
@@ -95,11 +95,11 @@
     }
 }
 .nextCon{
-    width: 95%;
+    width: 100%;
     position: absolute;
     top: 50%;
-    left: 2.5%;
-    transform: translate(0, -50%);
+    /* left: 2.5%;
+    transform: translate(0, -50%); */
     display: flex;
     justify-content: space-between;
     z-index: 3;
@@ -110,6 +110,12 @@
     background-color: #C4C4C4;
     border: none;
     padding: 5px 8px;
+}
+.previous{
+    border-radius: 0 5px 5px 0;
+}
+.next{
+    border-radius:5px 0 0 5px;
 }
 /* END of Style for the slide-show section =================================================================================================== */
 
@@ -129,7 +135,7 @@
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 75px;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -138,11 +144,11 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.8em;
+    font-size: 1.2em;
 }
 .my-input, .my-input::placeholder{
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     border: 1px solid #2B2024
 }
 textarea{
@@ -182,7 +188,7 @@ textarea{
     }
     .address{
         margin: 20px 0 !important;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .contact-us{
         background-color: #FFF4F4;
